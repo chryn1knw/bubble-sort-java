@@ -1,8 +1,8 @@
 public class Main {
     public static void main(String[] args)
     {
-        //////////////////0  1   2  3 4  5  6
-        int[] intArray = {20,35,-15,7,55,1,-22};
+        ////////////////// 0  1  2  3   4   5  6   7
+        int[] intArray = {43,52,22,-45,-22, 0, 9, 16};
 
         for(int lastUnsortedIndex = intArray.length-1; lastUnsortedIndex > 0; lastUnsortedIndex--){
             for(int i = 0; i < lastUnsortedIndex; i++){
